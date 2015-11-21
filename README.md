@@ -6,6 +6,7 @@ Usuage:
 cpr(options)
 
 ###Example
+```javascript
 cpr({
 	palette: ['#ffffff', '#eeeeee', '#dddddd'],
 	click: function(color){
@@ -18,17 +19,4 @@ cpr({
 		//lost focus
 	}
 });
-
-###options:
-
-**palette**
-palette to show
-
-**click**
-click callback
-
-**focus**
-focus callback
-
-**blur**
-blur callback
+```
