@@ -1,0 +1,18 @@
+{
+  "name": "cpr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cpr.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "tinycolor2": "^1.1.2"
+  }
+}
