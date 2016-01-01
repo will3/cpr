@@ -1,0 +1,23 @@
+{
+  "name": "cpr",
+  "main": "cpr.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/will3/cpr",
+  "authors": [
+    "will3 <will3.git@gmail.com>"
+  ],
+  "description": "color picker with blocks",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "color",
+    "picker"
+  ]
+}

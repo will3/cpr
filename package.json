@@ -1,7 +1,7 @@
 {
-  "name": "cpr",
+  "name": "cpr2",
   "version": "1.0.0",
-  "description": "",
+  "description": "A light weight color picker",
   "main": "cpr.js",
   "directories": {
     "example": "examples"
@@ -14,5 +14,14 @@
   "dependencies": {
     "jquery": "^2.1.4",
     "tinycolor2": "^1.1.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will3/cpr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/will3/cpr/issues"
+  },
+  "homepage": "https://github.com/will3/cpr#readme"
 }
