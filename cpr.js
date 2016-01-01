@@ -104,4 +104,6 @@
 
     preview.hide();
   };
+
+  window.cpr = cpr;
 });
