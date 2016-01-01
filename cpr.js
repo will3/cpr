@@ -2,15 +2,13 @@
   "use strict";
 
   if (typeof define === 'function' && define.amd) { // AMD
-    define(['jquery'], factory);
+    define(['jquery', 'tinycolor'], factory);
   } else if (typeof exports == "object" && typeof module == "object") { // CommonJS
-    module.exports = factory(require('jquery'));
+    module.exports = factory(require('jquery'), require('tinycolor2'));
   } else { // Browser
-    factory(jQuery);
+    factory(jQuery, tinycolor);
   }
-})(function($, undefined) {
-  var tinycolor = require('tinycolor2');
-
+})(function($, tinycolor, undefined) {
   function invertColor(hexTripletColor) {
     var color = hexTripletColor;
     color = color.substring(1); // remove #
